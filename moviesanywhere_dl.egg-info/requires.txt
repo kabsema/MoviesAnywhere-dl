@@ -1,0 +1,3 @@
+pywidevine>=1.8.0
+requests>=2.25.0
+selenium>=4.0.0

@@ -1,0 +1,2 @@
+[console_scripts]
+movies-anywhere = ma_download:main

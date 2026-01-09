@@ -1,0 +1,10 @@
+README.md
+ma_download.py
+moviesanywhere_dl.py
+setup.py
+moviesanywhere_dl.egg-info/PKG-INFO
+moviesanywhere_dl.egg-info/SOURCES.txt
+moviesanywhere_dl.egg-info/dependency_links.txt
+moviesanywhere_dl.egg-info/entry_points.txt
+moviesanywhere_dl.egg-info/requires.txt
+moviesanywhere_dl.egg-info/top_level.txt
