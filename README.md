@@ -40,9 +40,10 @@ pip install -e .
 
 1.  Click the WidevineProxy2 extension icon in your toolbar.
 2.  In the popup, slide the toggle to enable the extension.
-3.  Click "Choose File" and upload the `.wvd` file located in the `cdm` directory of this project.
-4.  Navigate to Movies Anywhere and play the movie you want to download. Let it buffer for a few seconds.
-5.  Click the extension icon again and click "Export Logs" at the bottom to download the `logs.json` file.
+3.  Place your Widevine CDM (Content Decryption Module) key file (a `.wvd` file) into the 'cdm' folder of this project.
+4.  Click "Choose File" and upload the `.wvd` file located in the `cdm` directory of this project.
+5.  Navigate to Movies Anywhere and play the movie you want to download. Let it buffer for a few seconds.
+6.  Click the extension icon again and click "Export Logs" at the bottom to download the `logs.json` file.
 
 ## Usage
 
