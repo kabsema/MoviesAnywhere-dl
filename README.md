@@ -57,13 +57,13 @@ movies-anywhere ~/Downloads/logs.json "Movie Name"
 
 ```bash
 # Download with custom name
-movies-anywhere ~/Downloads/logs.json "The Sound Of Music"
+movies-anywhere "/home/Jwheet/Downloads/logs(3).json" "The Sound Of Music"
 
 # Download with auto-generated name
-movies-anywhere ~/Downloads/logs.json
+movies-anywhere "/home/Jwheet/Downloads/logs.json"
 
 # Specify output directory
-movies-anywhere ~/Downloads/logs.json "Movie Name" --dir ~/Movies
+movies-anywhere "/home/Jwheet/Downloads/logs.json" "Movie Name" --dir ~/Movies
 ```
 
 ## Output
