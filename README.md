@@ -8,19 +8,19 @@ Download movies from Movies Anywhere with all audio tracks and subtitles.
 - [N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE)
 - [Bento4 mp4decrypt](https://github.com/axiomatic-systems/Bento4)
 - FFmpeg
-- [WidevineProxy2](https://github.com/AXE-Starter/WidevineProxy2) browser extension
+- [WidevineProxy2](https://github.com/DevLARLEY/WidevineProxy2) browser extension
 
 ## Installation
 
 ```bash
-git clone <REPO_URL>
-cd <REPO_NAME>
+git clone https://github.com/jwheet/MoviesAnywhere-dl
+cd MoviesAnywhere-dl
 pip install -e .
 ```
 
 ## Getting WidevineProxy2
 
-1. Download from: https://github.com/AXE-Starter/WidevineProxy2
+1. Download from: https://github.com/DevLARLEY/WidevineProxy2
 2. Install the browser extension in Firefox or Chrome
 3. Go to extension settings and enable "Save Logs"
 
