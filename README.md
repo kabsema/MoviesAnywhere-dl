@@ -18,18 +18,35 @@ cd MoviesAnywhere-dl
 pip install -e .
 ```
 
-## Getting WidevineProxy2
+## Getting and Using WidevineProxy2
 
-1. Download from: https://github.com/DevLARLEY/WidevineProxy2
-2. Install the browser extension in Firefox or Chrome
-3. Go to extension settings and enable "Save Logs"
+### Firefox Installation
+
+1.  Download the `.xpi` file from the [WidevineProxy2 releases page](https://github.com/DevLARLEY/WidevineProxy2/releases).
+2.  In Firefox, navigate to `about:addons`.
+3.  Click the gear icon (⚙️) and select "Install Add-on From File...".
+4.  Select the `.xpi` file you downloaded.
+5.  Pin the extension to your toolbar for easy access.
+
+### Chrome Installation
+
+1.  Download the `.zip` file from the [WidevineProxy2 releases page](https.github.com/DevLARLEY/WidevineProxy2/releases).
+2.  In Chrome, navigate to `chrome://extensions/`.
+3.  Enable "Developer mode" using the toggle in the top right corner.
+4.  Drag and drop the downloaded `.zip` file into the extensions window, or click "Load unpacked" and select the extracted zip folder.
+5.  Pin the extension to your toolbar for easy access.
+
+### Configuration and Log Export
+
+1.  Click the WidevineProxy2 extension icon in your toolbar.
+2.  In the popup, slide the toggle to enable the extension.
+3.  Click "Choose File" and upload the `.wvd` file located in the `cdm` directory of this project.
+4.  Navigate to Movies Anywhere and play the movie you want to download. Let it buffer for a few seconds.
+5.  Click the extension icon again and click "Export Logs" at the bottom to download the `logs.json` file.
 
 ## Usage
 
-1. Open Movies Anywhere in your browser with WidevineProxy2 active
-2. Play the movie you want to download (let it buffer a few seconds)
-3. Export logs from WidevineProxy2 (click extension icon -> Export Logs)
-4. Run the downloader:
+Run the downloader:
 
 ```bash
 movies-anywhere ~/Downloads/logs.json "Movie Name"
